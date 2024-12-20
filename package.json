@@ -1,0 +1,26 @@
+{
+  "name": "@renato-rodrigues/node-say-hello",
+  "version": "1.0.0",
+  "description": "Say hello using node",
+  "type": "module",
+  "main": "dist/sayHello.js",
+  "bin": {
+    "say-hello": "./dist/sayHello.js"
+  },
+  "scripts": {
+    "start": "tsx src/sayHello.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renato Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.0",
+    "inquirer": "^12.2.0",
+    "typescript": "^5.7.2",
+    "yosay": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
