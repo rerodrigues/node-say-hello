@@ -15,10 +15,10 @@
   "author": "Renato Rodrigues",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.4.0",
+    "chalk": "^4.1.2",
     "inquirer": "^12.2.0",
     "typescript": "^5.7.2",
-    "yosay": "^3.0.0"
+    "yosay": "^2.0.2"
   },
   "devDependencies": {
     "tsx": "^4.19.2"
