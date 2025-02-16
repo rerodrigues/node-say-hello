@@ -24,7 +24,7 @@ const questions: Answers = [
     name: "isEverythingOk",
     message: "Is the entered information correct?",
     default: true,
-    transformer: (answer) => (answer ? "👍" : "👎"),
+    transformer: (answer: boolean) => (answer ? "👍" : "👎"),
   },
 ];
 
